@@ -58,13 +58,13 @@ export default function EventModal() {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50">
-      {/* Full-Screen Overlay */}
+  
       <div
         className="absolute inset-0 bg-gray-700 opacity-50"
         onClick={() => setShowEventModal(false)}
       ></div>
 
-      {/* Modal */}
+      
       <form
         onSubmit={handleSubmit}
         className="relative bg-white rounded-lg shadow-2xl w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl z-10"
